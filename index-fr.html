@@ -487,6 +487,18 @@
 
     <script src="script.js"></script>
     <script src="theme-toggle.js"></script>
+       <!-- Détection de langue -->
+    <script>
+    // Détection de la langue du navigateur
+    const userLang = navigator.language || navigator.userLanguage;
+    
+    // Redirection pour les utilisateurs anglophones
+    if(userLang.startsWith('en') && window.location.pathname.includes('-fr.html')) {
+        window.location.href = 'index.html';
+    }
+    </script>
+
+
 </body>
 </html>
 
