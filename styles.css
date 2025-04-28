@@ -85,6 +85,27 @@ a:hover {
 .fa-envelope:hover { color: #EA4335; } /* Gmail red */
 .fa-whatsapp:hover {color: #25D366; } /* WhatsApp brand green */
 
+/* LANGUAGE */
+/* ================================================== */
+/* Ajoutez ceci à styles.css */
+.language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.9em;
+}
+
+.language-switcher a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.3rem;
+    border-radius: 3px;
+    transition: color 0.3s ease;
+}
+
+.language-switcher a:hover {
+    background-color: var(--accent-color);
+}
 
 
 /* 2. Header & Navigation */
