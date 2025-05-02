@@ -333,11 +333,11 @@ h4::before {
 
 /* Dark theme override */
 body.dark-theme .accent-link {
-    color: #E9EDC9; /* Light parchment color */
+    color: #B58463; /* Light parchment color */
 }
 
 body.dark-theme .accent-link:hover {
-    color: #CCD5AE;
+    color: #9D6B53;
     text-decoration: none;
 }
 
