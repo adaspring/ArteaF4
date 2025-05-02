@@ -570,7 +570,18 @@ body.dark-theme .carousel button::after {
   border-radius: 8px;
 }
 
+.text-wrap-image {
+  margin: 1.5rem 0;
+  overflow: hidden; /* to clear the float */
+}
 
+.text-wrap-image img.float-image {
+  float: right;
+  width: 250px;
+  margin: 0 0 1rem 1rem;
+  border-radius: 6px;
+  shape-outside: margin-box;
+}
 
 /* 6. Grid System */
 /* ================================================== */
