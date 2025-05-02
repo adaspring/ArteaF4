@@ -875,6 +875,10 @@ footer {
     color: #665544;
 }
 
+footer > * {
+    margin: 1rem 0;
+}
+
 footer a {
     color: #665544;
     text-decoration: none;
