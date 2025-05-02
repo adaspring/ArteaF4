@@ -1501,3 +1501,12 @@ body.dark-theme .lightbox-caption {
         right: 10px;
     }
 }
+
+@media (max-width: 600px) {
+  .float-image {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 80%;
+  }
+}
