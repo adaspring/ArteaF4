@@ -584,16 +584,10 @@ body.dark-theme .carousel button::after {
 }
 .float-image {
   float: left;
-  /*margin: 0 1rem 1rem 0;*/
-  max-width: 40%; /* or whatever size works best */
-  vertical-align: middle;
-  margin: 0 0 0 1em;
+  margin: 0 1rem 1rem 0;
+  max-width: 60%; /* or whatever size works best */
 }
 
-.text-wrap-image p {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-}
 
 
 /* 6. Grid System */
@@ -1502,11 +1496,3 @@ body.dark-theme .lightbox-caption {
     }
 }
 
-@media (max-width: 600px) {
-  .float-image {
-    float: none;
-    display: block;
-    margin: 0 auto 1rem;
-    max-width: 80%;
-  }
-}
