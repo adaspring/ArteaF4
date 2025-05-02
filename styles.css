@@ -582,6 +582,13 @@ body.dark-theme .carousel button::after {
   border-radius: 6px;
   shape-outside: margin-box;
 }
+.float-image {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 40%; /* or whatever size works best */
+}
+
+
 
 /* 6. Grid System */
 /* ================================================== */
