@@ -875,8 +875,8 @@ footer {
     color: #665544;
 }
 
-footer > * {
-    margin: 1rem 0;
+footer h2 {
+    margin-bottom: 1rem; /* Reduce space below heading */
 }
 
 footer a {
