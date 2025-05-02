@@ -876,7 +876,7 @@ footer {
 }
 
 footer h2 {
-    margin-bottom: 0.1rem; /* Reduce space below heading */
+    margin-bottom: -0.5rem; /* Reduce space below heading */
 }
 
 footer a {
