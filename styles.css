@@ -588,7 +588,16 @@ body.dark-theme .carousel button::after {
   max-width: 40%; /* or whatever size works best */
 }
 
-
+.text-wrap-image::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.text-wrap-image p::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* 6. Grid System */
 /* ================================================== */
