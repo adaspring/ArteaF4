@@ -58,32 +58,6 @@ a:hover {
 }
 
 
-/* Replace .instagram-icon with .social-icon */
-.social-container {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    width: 100%;
-    margin: 1.5rem 0; /* 1.5rem top/bottom, 0 left/right */  
-}
-
-.social-icon {
-    display: inline-block;
-    font-size: 2rem;
-    color: #665544; /* Base color */
-    transition: all 0.3s ease;
-}
-
-.social-icon:hover {
-    transform: translateY(-3px);
-    text-decoration: none;
-}
-
-/* Specific colors */
-.fa-instagram:hover { color: #E4405F; } /* Instagram pink */
-.fa-envelope:hover { color: #EA4335; } /* Gmail red */
-.fa-whatsapp:hover {color: #25D366; } /* WhatsApp brand green */
-
 /* LANGUAGE */
 /* ================================================== */
 /* Ajoutez ceci à styles.css */
@@ -913,6 +887,33 @@ footer a:hover {
 .back-to-top.visible {
     opacity: 1;
 }
+
+.social-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+    margin: 1.0rem 0; /* 1.5rem top/bottom, 0 left/right */  
+}
+
+.social-icon {
+    display: inline-block;
+    font-size: 2rem;
+    color: #665544; /* Base color */
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
+/* Specific colors */
+.fa-instagram:hover { color: #E4405F; } /* Instagram pink */
+.fa-envelope:hover { color: #EA4335; } /* Gmail red */
+.fa-whatsapp:hover {color: #25D366; } /* WhatsApp brand green */
+
+
 
 /* 9. Lightbox System */
 /* ================================================== */
